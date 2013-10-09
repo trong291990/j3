@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <layout title="COM_COCOATEREALESTATE_OBJECT_VIEW_DEFAULT_TITLE">
+    <message>COM_COCOATEREALESTATE_OBJECT_VIEW_DEFAULT_DESC</message>
+  </layout>
+  <fields name="request" addfieldpath="/administrator/components/com_cocoaterealestate/models/fields">
+    <fieldset name="request">
+      <field
+        name="id"
+        type="object"
+        extension="com_cocoaterealestate"
+        label="COM_COCOATEREALESTATE_OBJECT_FIELD_OBJECT_LABEL"
+        description="COM_COCOATEREALESTATE_OBJECT_FIELD_OBJECT_LABEL"
+        required="true"
+        />
+    </fieldset>
+  </fields>
+</metadata>

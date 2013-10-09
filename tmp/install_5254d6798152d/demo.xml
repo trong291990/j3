@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Demo</name>
+	<author>Pham Ngan</author>
+	<creationDate>5-2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<authorEmail>phamtruonghongngan@yahoo.com</authorEmail>
+	<authorUrl>--------</authorUrl>
+	<version>1.0.0</version>
+	<license>Debug</license>
+	<description>Demo phát triển component Joomla 1.5 </description>
+	<installfile>install.demo.php</installfile>
+	<uninstallfile>uninstall.demo.php</uninstallfile>
+	<files>
+		<filename>demo.php</filename>
+	</files>
+	<administration>
+		<menu>Demo</menu>
+		<submenu>
+			<menu >Demo Joomla</menu>
+		</submenu>
+		<files >
+			<filename>admin.demo.php</filename>
+			</files>
+	</administration>
+</install>
